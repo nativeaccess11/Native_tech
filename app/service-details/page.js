@@ -67,10 +67,10 @@ export default function ServiceDetails() {
                                         <div className="details-content">
                                             <h3>IT Consultancy</h3>
                                             <p className="mt-3">
-                                                The is ipsum dolor sit amet consectetur adipiscing elit. Fusce is eleifend porta arcu In hac habitasse the platea thelorem turpoi dictumst. In lacus libero faucibus malesuada sagittis placerat eros sed istincidunt augue ac ante rutrum sed the is sodales augue consequat.
+                                                The is ipsum dolor sit amet consectetur adipiscing elit. Fusce is eleifend porta arcu In hac habitasse the platea thereal turpoi dictumst. In lacus libero faucibus malesuada sagittis placerat eros sed istincidunt augue ac ante rutrum sed the is sodales augue consequat.
                                             </p>
                                             <p className="mt-3">
-                                                lacus sed pretium pretium justo. Integer is vitae venenatis lorem. Maecenas lacinia turpis the in nunc quam hendrerit scelerisque at finibus enim sagittis. Aliquam erat is volutpat nam nec purus at is orci volutpat semper vel id turpis In a malesuada arcu ac hendrerit.
+                                                lacus sed pretium pretium justo. Integer is vitae venenatis real. Maecenas lacinia turpis the in nunc quam hendrerit scelerisque at finibus enim sagittis. Aliquam erat is volutpat nam nec purus at is orci volutpat semper vel id turpis In a malesuada arcu ac hendrerit.
                                             </p>
                                             <div className="details-video-items">
                                                 <div className="video-thumb">
@@ -79,7 +79,7 @@ export default function ServiceDetails() {
                                                 </div>
                                                 <div className="content">
                                                     <h4>Benefits With Our Service</h4>
-                                                    <p> Fusce is eleifend porta arcu In hac <br /> habitasse the platea thelorem</p>
+                                                    <p> Fusce is eleifend porta arcu In hac <br /> habitasse the platea thereal</p>
                                                     <ul className="list">
                                                         <li>
                                                             <i className="fa-regular fa-circle-check" />
@@ -115,7 +115,7 @@ export default function ServiceDetails() {
                                             </div>
                                             <h3>Most Comment Question?</h3>
                                             <p className="mt-3">
-                                                The is ipsum dolor sit amet consectetur adipiscing elit. Fusce is eleifend porta arcu In hac habitasse the platea thelorem turpoi dictumst. In lacus libero faucibus malesuada.
+                                                The is ipsum dolor sit amet consectetur adipiscing elit. Fusce is eleifend porta arcu In hac habitasse the platea thereal turpoi dictumst. In lacus libero faucibus malesuada.
                                             </p>
                                         </div>
                                         <div className="faq-content style-3">
@@ -129,7 +129,7 @@ export default function ServiceDetails() {
                                                         </h5>
                                                         <div id="faq1" className={activeItem == 1 ? "accordion-collapse collapse show" : "accordion-collapse collapse"} data-bs-parent="#accordion">
                                                             <div className="accordion-body">
-                                                                There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't.
+                                                                There are many variations of passages of Real Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't.
                                                             </div>
                                                         </div>
                                                     </div>
@@ -141,7 +141,7 @@ export default function ServiceDetails() {
                                                         </h5>
                                                         <div id="faq2" className={activeItem == 2 ? "accordion-collapse collapse show" : "accordion-collapse collapse"}>
                                                             <div className="accordion-body">
-                                                                There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't.
+                                                                There are many variations of passages of Real Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't.
                                                             </div>
                                                         </div>
                                                     </div>
@@ -153,7 +153,7 @@ export default function ServiceDetails() {
                                                         </h5>
                                                         <div id="faq3" className={activeItem == 3 ? "accordion-collapse collapse show" : "accordion-collapse collapse"}>
                                                             <div className="accordion-body">
-                                                                There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't.
+                                                                There are many variations of passages of Real Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't.
                                                             </div>
                                                         </div>
                                                     </div>
@@ -165,7 +165,7 @@ export default function ServiceDetails() {
                                                         </h5>
                                                         <div id="faq4" className={activeItem == 4 ? "accordion-collapse collapse show" : "accordion-collapse collapse"}>
                                                             <div className="accordion-body">
-                                                                There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't.
+                                                                There are many variations of passages of Real Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't.
                                                             </div>
                                                         </div>
                                                     </div>

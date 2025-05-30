@@ -1,5 +1,3 @@
-
-
 import Link from 'next/link'
 import VideoPopup from '../elements/VideoPopup'
 import CounterUp from '../elements/CounterUp'
@@ -38,7 +36,7 @@ export default function About1() {
                                         </h2>
                                     </div>
                                     <p className="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".5s">
-                                        It is a long established fact that a reader will be distracted the readable <br /> content of a page when looking at layout the point.
+                                        We are committed to delivering innovative IT solutions that drive business growth <br /> and digital transformation for organizations of all sizes.
                                     </p>
                                     <div className="about-icon-items">
                                         <div className="icon-items wow fadeInUp" data-wow-delay=".7s">
@@ -48,7 +46,7 @@ export default function About1() {
                                             <div className="content">
                                                 <h4>Problem Solving</h4>
                                                 <p>
-                                                    Aliquam erat volutpat Nullam imperdiet
+                                                    Comprehensive IT solutions including system integration, cloud services, and cybersecurity to address modern business challenges.
                                                 </p>
                                             </div>
                                         </div>
@@ -59,7 +57,7 @@ export default function About1() {
                                             <div className="content">
                                                 <h4>Mission &amp; Vision</h4>
                                                 <p>
-                                                    Aliquam erat volutpat Nullam imperdiet
+                                                    To be the leading IT service provider, delivering innovative technology solutions that transform businesses and drive digital success.
                                                 </p>
                                             </div>
                                         </div>
@@ -74,7 +72,7 @@ export default function About1() {
                                         <div className="author-image wow fadeInUp" data-wow-delay=".7s">
                                             <img src="/assets/img/about/author.png" alt="author-img" />
                                             <div className="content">
-                                                <h6>Ronald Richards</h6>
+                                                <h6>Cheeni </h6>
                                                 <p>Co, Founder</p>
                                             </div>
                                         </div>

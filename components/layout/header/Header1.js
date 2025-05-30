@@ -20,11 +20,11 @@ export default function Header1({
                             <ul className="contact-list">
                                 <li>
                                     <i className="far fa-envelope" />
-                                    <Link href="/mailto:nativeaccess11@gmail.com" className="link">nativeaccess11@gmail.com</Link>
+                                    <Link href="/mailto:info@nativeit.com" className="link">info@nativeit.com</Link>
                                 </li>
                                 <li>
                                     <i className="fa-solid fa-phone-volume" />
-                                    <Link href="/tel:2086660112">+208-666-0112</Link>
+                                    <Link href="/tel:+1234567890">+1 (234) 567-890</Link>
                                 </li>
                             </ul>
                             <div className="top-right">

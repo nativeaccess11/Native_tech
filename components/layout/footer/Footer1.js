@@ -23,9 +23,8 @@ export default function Footer1() {
                                     </div>
                                     <div className="footer-content">
                                         <p>
-                                            Phasellus ultricies aliquam volutpat
-                                            ullamcorper laoreet neque, a lacinia
-                                            curabitur lacinia mollis
+                                            We are a leading IT service provider dedicated to delivering innovative technology solutions. 
+                                            Our expert team ensures reliable support and cutting-edge services for your business needs.
                                         </p>
                                         <div className="social-icon d-flex align-items-center">
                                             <Link href="#"><i className="fab fa-facebook-f" /></Link>
@@ -45,7 +44,7 @@ export default function Footer1() {
                                         <li>
                                             <Link href="/about">
                                                 <i className="fa-solid fa-chevron-right" />
-                                                Infotech About
+                                                Native About
                                             </Link>
                                         </li>
                                         <li>
@@ -131,11 +130,11 @@ export default function Footer1() {
                                         <ul className="contact-info">
                                             <li>
                                                 <i className="fas fa-map-marker-alt" />
-                                                6391 Elgin St. Celina, USA
+                                                Address: Darwin, Northern Territory, Australia
                                             </li>
                                             <li>
                                                 <i className="fa-solid fa-phone-volume" />
-                                                <Link href="/tel:2086660112">+208-666-0112</Link>
+                                                <Link href="/tel:+61466005757">+61466005757</Link>
                                             </li>
                                             <li>
                                                 <i className="fa-regular fa-envelope" />
@@ -156,7 +155,7 @@ export default function Footer1() {
                     <div className="container">
                         <div className="footer-wrapper d-flex align-items-center justify-content-between">
                             <p className="wow fadeInLeft color-2" data-wow-delay=".3s">
-                                © All Copyright {new Date().getFullYear()} by <Link href="/">Infotech</Link>
+                                © All Copyright {new Date().getFullYear()} by <Link href="/">Native</Link>
                             </p>
                             <ul className="footer-menu wow fadeInRight" data-wow-delay=".5s">
                                 <li>

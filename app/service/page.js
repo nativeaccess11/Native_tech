@@ -1,5 +1,3 @@
-
-
 import Accordion1 from "@/components/elements/Accordion1"
 import Layout from "@/components/layout/Layout"
 import Link from "next/link"
@@ -13,9 +11,9 @@ export default function Service() {
                     <section className="service-section fix section-padding">
                         <div className="container">
                             <div className="section-title text-center">
-                                <span className="wow fadeInUp">OUR SERVICES</span>
+                                <span className="wow fadeInUp">NATIVE IT SERVICES</span>
                                 <h2 className="wow fadeInUp" data-wow-delay=".3s">
-                                    We Provide the Best Quality
+                                    We Provide the Best Quality IT Solutions
                                 </h2>
                             </div>
                             <div className="service-wrapper mb-0">

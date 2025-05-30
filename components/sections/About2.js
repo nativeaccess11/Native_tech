@@ -1,4 +1,3 @@
-
 import Link from 'next/link'
 import CounterUp from '../elements/CounterUp'
 
@@ -39,7 +38,7 @@ export default function About2() {
                                         </h2>
                                     </div>
                                     <p className="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".5s">
-                                        It is a long established fact that a reader will be distracted the readable <br /> content of a page when looking at layout the point.
+                                        Our expert team combines technical expertise with industry best practices <br /> to provide comprehensive IT solutions tailored to your business needs.
                                     </p>
                                     <div className="about-icon-items">
                                         <div className="icon-items wow fadeInUp" data-wow-delay=".7s">

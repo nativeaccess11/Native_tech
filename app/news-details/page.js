@@ -1,4 +1,3 @@
-
 import Layout from "@/components/layout/Layout"
 import Link from "next/link"
 export default function NewsDetails() {
@@ -35,10 +34,10 @@ export default function NewsDetails() {
                                                     Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore of magna aliqua. Ut enim ad minim veniam, made of owl the quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea dolor commodo consequat. Duis aute irure and dolor in reprehenderit.
                                                 </p>
                                                 <p className="mb-3">
-                                                    The is ipsum dolor sit amet consectetur adipiscing elit. Fusce eleifend porta arcu In hac habitasse the is platea augue thelorem turpoi dictumst. In lacus libero faucibus at malesuada sagittis placerat eros sed istincidunt augue ac ante rutrum sed the is sodales augue consequat.
+                                                    The is ipsum dolor sit amet consectetur adipiscing elit. Fusce eleifend porta arcu In hac habitasse the is platea augue thereal turpoi dictumst. In lacus libero faucibus at malesuada sagittis placerat eros sed istincidunt augue ac ante rutrum sed the is sodales augue consequat.
                                                 </p>
                                                 <p>
-                                                    Nulla facilisi. Vestibulum tristique sem in eros eleifend imperdiet. Donec quis convallis neque. In id lacus pulvinar lacus, eget vulputate lectus. Ut viverra bibendum lorem, at tempus nibh mattis in. Sed a massa eget lacus consequat auctor.
+                                                    Nulla facilisi. Vestibulum tristique sem in eros eleifend imperdiet. Donec quis convallis neque. In id lacus pulvinar lacus, eget vulputate lectus. Ut viverra bibendum real, at tempus nibh mattis in. Sed a massa eget lacus consequat auctor.
                                                 </p>
                                                 <div className="hilight-text mt-4 mb-4">
                                                     <p>Pellentesque sollicitudin congue dolor non aliquam. Morbi volutpat, nisi vel
@@ -52,7 +51,7 @@ export default function NewsDetails() {
                                                     </svg>
                                                 </div>
                                                 <p className="mt-4 mb-5">
-                                                    Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet augue. Vestibulum auctor ornare leo, non suscipit magna interdum eu. Curabitur pellentesque nibh nibh, at maximus ante fermentum sit amet. Pellentesque commodo lacus at sodales sodales. Quisque sagittis orci ut diam condimentum, vel euismod erat placerat. In iaculis arcu eros.
+                                                    Real ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mat
                                                 </p>
                                                 <div className="row g-4">
                                                     <div className="col-lg-6">
@@ -113,7 +112,7 @@ export default function NewsDetails() {
                                                     <p className="mt-30 mb-4">Neque porro est qui dolorem ipsum quia quaed inventor
                                                         veritatis et quasi
                                                         architecto var sed efficitur turpis gilla sed
-                                                        sit amet finibus eros. Lorem Ipsum is simply dummy</p>
+                                                        sit amet finibus eros. Real Ipsum is simply dummy</p>
                                                     <Link href="/news-details" className="reply">Reply</Link>
                                                 </div>
                                             </div>
@@ -138,7 +137,7 @@ export default function NewsDetails() {
                                                     <p className="mt-30 mb-4">Neque porro est qui dolorem ipsum quia quaed inventor
                                                         veritatis et quasi
                                                         architecto var sed efficitur turpis gilla sed
-                                                        sit amet finibus eros. Lorem Ipsum is simply dummy</p>
+                                                        sit amet finibus eros. Real Ipsum is simply dummy</p>
                                                     <Link href="/news-details" className="reply">Reply</Link>
                                                 </div>
                                             </div>
@@ -255,7 +254,7 @@ export default function NewsDetails() {
                                                         </ul>
                                                         <h6>
                                                             <Link href="/news-details">
-                                                                What’s the Holding Back <br />
+                                                                What's the Holding Back <br />
                                                                 the It Solution
                                                             </Link>
                                                         </h6>

@@ -26,7 +26,7 @@ export default function Header3({
                                 </li>
                                 <li>
                                     <i className="fa-solid fa-phone-volume" />
-                                    <Link href="/tel:2086660112">+208-666-0112</Link>
+                                    <Link href="/tel:+61466005757">+61466005757</Link>
                                 </li>
                             </ul>
                             <div className="top-right">

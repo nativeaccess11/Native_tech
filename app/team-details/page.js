@@ -1,4 +1,3 @@
-
 import Layout from "@/components/layout/Layout"
 import Link from "next/link"
 export default function TeamDetails() {
@@ -71,7 +70,7 @@ export default function TeamDetails() {
                                 </div>
                                 <h5 className="pt-5">Diploma in Web Design <span>2012 - 2014</span></h5>
                                 <p className="mt-3">
-                                    Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore of magna aliqua. Ut enim ad minim veniam, made of owl the is quis nostrud vitae exercitation ullamco laboris nisi ut aliquip ex ea dolor commodo consequat. Duis aute irure and dolor in reprehenderit The is ipsum dolor sit amet consectetur nulla adipiscing elit. Fusce eleifend porta arcu In hac habitasse the is platea augue thelorem turpoi dictumst. In lacus libero faucibus at malesuada sagittis placerat eros sed istincidunt augue ac ante rutrum sed the is sodales augue consequat..
+                                    Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore of magna aliqua. Ut enim ad minim veniam, made of owl the is quis nostrud vitae exercitation ullamco laboris nisi ut aliquip ex ea dolor commodo consequat. Duis aute irure and dolor in reprehenderit The is ipsum dolor sit amet consectetur nulla adipiscing elit. Fusce eleifend porta arcu In hac habitasse the is platea augue thereal turpoi dictumst. In lacus libero faucibus at malesuada sagittis placerat eros sed istincidunt augue ac ante rutrum sed the is sodales augue consequat..
                                 </p>
                                 <h5 className="pt-5">Degree in UI/UX Design <span>2015 - 2016 </span></h5>
                                 <p className="mt-3">

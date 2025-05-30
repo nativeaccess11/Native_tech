@@ -1,4 +1,3 @@
-
 import Link from 'next/link'
 
 export default function Pricing1() {
@@ -17,7 +16,7 @@ export default function Pricing1() {
                             <div className="section-title">
                                 <span className="wow fadeInUp">FLEXIBLE PRICING PLAN</span>
                                 <h2 className="wow fadeInUp" data-wow-delay=".3s">
-                                    We’ve Offered the best <br /> pricing for you
+                                    We've Offered the best <br /> pricing for you
                                 </h2>
                             </div>
                             <ul className="nav" role="tablist">
@@ -45,7 +44,7 @@ export default function Pricing1() {
                                                 <h2>$149</h2>
                                                 <span>Par month</span>
                                                 <p>
-                                                    Lnteger sapien nec sapien sollicitudin ultrices Cras tempor id lorem et
+                                                    Lnteger sapien nec sapien sollicitudin ultrices Cras tempor id real et
                                                 </p>
                                             </div>
                                             <ul className="pricing-list">
@@ -88,7 +87,7 @@ export default function Pricing1() {
                                                 <h2>$179</h2>
                                                 <span>Par month</span>
                                                 <p>
-                                                    Lnteger sapien nec sapien sollicitudin ultrices Cras tempor id lorem et
+                                                    Lnteger sapien nec sapien sollicitudin ultrices Cras tempor id real et
                                                 </p>
                                             </div>
                                             <ul className="pricing-list">
@@ -131,7 +130,7 @@ export default function Pricing1() {
                                                 <h2>$199</h2>
                                                 <span>Par month</span>
                                                 <p>
-                                                    Lnteger sapien nec sapien sollicitudin ultrices Cras tempor id lorem et
+                                                    Lnteger sapien nec sapien sollicitudin ultrices Cras tempor id real et
                                                 </p>
                                             </div>
                                             <ul className="pricing-list">
@@ -178,7 +177,7 @@ export default function Pricing1() {
                                                 <h2>$149</h2>
                                                 <span>Par month</span>
                                                 <p>
-                                                    Lnteger sapien nec sapien sollicitudin ultrices Cras tempor id lorem et
+                                                    Lnteger sapien nec sapien sollicitudin ultrices Cras tempor id real et
                                                 </p>
                                             </div>
                                             <ul className="pricing-list">
@@ -221,7 +220,7 @@ export default function Pricing1() {
                                                 <h2>$179</h2>
                                                 <span>Par month</span>
                                                 <p>
-                                                    Lnteger sapien nec sapien sollicitudin ultrices Cras tempor id lorem et
+                                                    Lnteger sapien nec sapien sollicitudin ultrices Cras tempor id real et
                                                 </p>
                                             </div>
                                             <ul className="pricing-list">
@@ -264,7 +263,7 @@ export default function Pricing1() {
                                                 <h2>$199</h2>
                                                 <span>Par month</span>
                                                 <p>
-                                                    Lnteger sapien nec sapien sollicitudin ultrices Cras tempor id lorem et
+                                                    Lnteger sapien nec sapien sollicitudin ultrices Cras tempor id real et
                                                 </p>
                                             </div>
                                             <ul className="pricing-list">

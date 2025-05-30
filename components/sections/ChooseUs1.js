@@ -1,5 +1,3 @@
-
-
 export default function ChooseUs1() {
     return (
         <>
@@ -37,7 +35,7 @@ export default function ChooseUs1() {
                                         </h2>
                                     </div>
                                     <p className="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".5s">
-                                        It is a long established fact that a reader will be distracted the readable <br /> content of a page when looking at layout the point.
+                                        Choose us for our proven track record in delivering reliable IT services, <br /> dedicated support, and innovative solutions that drive your business forward.
                                     </p>
                                     <div className="choose-list-area">
                                         <ul className="choose-list wow fadeInUp" data-wow-delay=".7s">

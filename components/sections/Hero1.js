@@ -1,4 +1,3 @@
-
 import Link from 'next/link'
 import VideoPopup from '../elements/VideoPopup'
 
@@ -25,7 +24,13 @@ export default function Hero1() {
                     <div className="row g-4 align-items-center">
                         <div className="col-lg-8">
                             <div className="hero-content">
-                                <h6 className="wow fadeInUp" data-wow-delay=".2s">Best it SOULTION Provider</h6>
+                                <h6 className="wow fadeInUp" data-wow-delay=".2s" style={{ 
+                                    fontFamily: "'Playfair Display', serif",
+                                    fontSize: "1.2rem",
+                                    letterSpacing: "2px",
+                                    color: "#384BFF",
+                                    fontWeight: "600"
+                                }}>NATIVE IT SOLUTIONS</h6>
                                 <h1 className="wow fadeInUp" data-wow-delay=".4s">
                                     Excellent It Services
                                     for Your Success

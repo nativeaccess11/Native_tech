@@ -1,4 +1,3 @@
-
 import Layout from "@/components/layout/Layout"
 import Link from "next/link"
 export default function NewsStandard() {
@@ -37,7 +36,7 @@ export default function NewsStandard() {
                                                 <Link href="/news-details">Keep Your Business Safe &amp; Ensure High Availability</Link>
                                             </h3>
                                             <p>
-                                                Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur..
+                                                Real ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur..
                                             </p>
                                             <Link href="/news-details" className="theme-btn mt-4">
                                                 Read More
@@ -70,7 +69,7 @@ export default function NewsStandard() {
                                                 <Link href="/news-details">Tackling the Changes of Retail Industry</Link>
                                             </h3>
                                             <p>
-                                                Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur..
+                                                Real ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur..
                                             </p>
                                             <Link href="/news-details" className="theme-btn mt-4">
                                                 Read More
@@ -100,10 +99,10 @@ export default function NewsStandard() {
                                                 </li>
                                             </ul>
                                             <h3>
-                                                <Link href="/news-details">What’s the Holding Back the It Solution</Link>
+                                                <Link href="/news-details">What's the Holding Back the It Solution</Link>
                                             </h3>
                                             <p>
-                                                Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur..
+                                                Real ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur..
                                             </p>
                                             <Link href="/news-details" className="theme-btn mt-4">
                                                 Read More
@@ -204,7 +203,7 @@ export default function NewsStandard() {
                                                     </ul>
                                                     <h6>
                                                         <Link href="/news-details">
-                                                            What’s the Holding Back <br />
+                                                            What's the Holding Back <br />
                                                             the It Solution
                                                         </Link>
                                                     </h6>

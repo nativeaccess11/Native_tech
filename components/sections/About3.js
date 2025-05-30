@@ -1,4 +1,3 @@
-
 import Link from 'next/link'
 import VideoPopup from '../elements/VideoPopup'
 import CounterUp from '../elements/CounterUp'
@@ -33,7 +32,7 @@ export default function About3() {
                                         </h2>
                                     </div>
                                     <p className="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".5s">
-                                        It is a long established fact that a reader will be distracted the readable <br /> content of a page when looking at layout the point.
+                                        With years of experience in IT services, we help businesses leverage technology <br /> to achieve operational excellence and competitive advantage.
                                     </p>
                                     <div className="icon-area wow fadeInUp" data-wow-delay=".7s">
                                         <ul className="list">

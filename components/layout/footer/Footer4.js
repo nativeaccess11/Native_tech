@@ -34,9 +34,8 @@ export default function Footer4() {
                                         </div>
                                         <div className="footer-content">
                                             <p>
-                                                Phasellus ultricies aliquam volutpat
-                                                ullamcorper laoreet neque, a lacinia
-                                                curabitur lacinia mollis
+                                                We are a leading IT service provider dedicated to delivering innovative technology solutions. 
+                                                Our expert team ensures reliable support and cutting-edge services for your business needs.
                                             </p>
                                             <div className="social-icon d-flex align-items-center">
                                                 <Link href="#"><i className="fab fa-facebook-f" /></Link>
@@ -74,7 +73,7 @@ export default function Footer4() {
                                             <li>
                                                 <Link href="/faq">
                                                     <i className="fa-solid fa-chevron-right" />
-                                                    FAQ’S
+                                                    FAQ'S
                                                 </Link>
                                             </li>
                                             <li>
@@ -92,7 +91,7 @@ export default function Footer4() {
                                             <h3>Contact Info</h3>
                                         </div>
                                         <div className="footer-content">
-                                            <p>4517 Washington. mg Manchester, Kentucky 39495</p>
+                                            <p>Darwin, Northern Territory, Australia</p>
                                             <div className="contact-info-area-2">
                                                 <div className="contact-info-item-2">
                                                     <div className="icon">
@@ -142,7 +141,7 @@ export default function Footer4() {
                     <div className="container">
                         <div className="footer-wrapper d-flex align-items-center justify-content-between">
                             <p className="wow fadeInLeft color-2" data-wow-delay=".3s">
-                                © All Copyright {new Date().getFullYear()} by <Link href="/">Infotech</Link>
+                                © All Copyright {new Date().getFullYear()} by <Link href="/">Native</Link>
                             </p>
                             <ul className="footer-menu wow fadeInRight" data-wow-delay=".5s">
                                 <li>

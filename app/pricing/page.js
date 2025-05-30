@@ -1,4 +1,3 @@
-
 import Layout from "@/components/layout/Layout"
 import Link from "next/link"
 export default function Pricing() {
@@ -13,7 +12,7 @@ export default function Pricing() {
                             <div className="section-title text-center">
                                 <span className="wow fadeInUp">FLEXIBLE PRICING PLAN</span>
                                 <h2 className="wow fadeInUp" data-wow-delay=".3s">
-                                    We’ve Offered the best <br /> pricing for you
+                                    We've Offered the best <br /> pricing for you
                                 </h2>
                             </div>
                             <div className="tab-content">
@@ -28,7 +27,7 @@ export default function Pricing() {
                                                     <h2>$149</h2>
                                                     <span>Par month</span>
                                                     <p>
-                                                        Lnteger sapien nec sapien sollicitudin ultrices Cras tempor id lorem et
+                                                        Lnteger sapien nec sapien sollicitudin ultrices Cras tempor id real et
                                                     </p>
                                                 </div>
                                                 <ul className="pricing-list">
@@ -71,7 +70,7 @@ export default function Pricing() {
                                                     <h2>$179</h2>
                                                     <span>Par month</span>
                                                     <p>
-                                                        Lnteger sapien nec sapien sollicitudin ultrices Cras tempor id lorem et
+                                                        Lnteger sapien nec sapien sollicitudin ultrices Cras tempor id real et
                                                     </p>
                                                 </div>
                                                 <ul className="pricing-list">
@@ -114,7 +113,7 @@ export default function Pricing() {
                                                     <h2>$199</h2>
                                                     <span>Par month</span>
                                                     <p>
-                                                        Lnteger sapien nec sapien sollicitudin ultrices Cras tempor id lorem et
+                                                        Lnteger sapien nec sapien sollicitudin ultrices Cras tempor id real et
                                                     </p>
                                                 </div>
                                                 <ul className="pricing-list">
@@ -161,7 +160,7 @@ export default function Pricing() {
                                                     <h2>$149</h2>
                                                     <span>Par month</span>
                                                     <p>
-                                                        Lnteger sapien nec sapien sollicitudin ultrices Cras tempor id lorem et
+                                                        Lnteger sapien nec sapien sollicitudin ultrices Cras tempor id real et
                                                     </p>
                                                 </div>
                                                 <ul className="pricing-list">
@@ -204,7 +203,7 @@ export default function Pricing() {
                                                     <h2>$179</h2>
                                                     <span>Par month</span>
                                                     <p>
-                                                        Lnteger sapien nec sapien sollicitudin ultrices Cras tempor id lorem et
+                                                        Lnteger sapien nec sapien sollicitudin ultrices Cras tempor id real et
                                                     </p>
                                                 </div>
                                                 <ul className="pricing-list">
@@ -247,7 +246,7 @@ export default function Pricing() {
                                                     <h2>$199</h2>
                                                     <span>Par month</span>
                                                     <p>
-                                                        Lnteger sapien nec sapien sollicitudin ultrices Cras tempor id lorem et
+                                                        Lnteger sapien nec sapien sollicitudin ultrices Cras tempor id real et
                                                     </p>
                                                 </div>
                                                 <ul className="pricing-list">

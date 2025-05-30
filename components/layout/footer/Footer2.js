@@ -46,7 +46,7 @@ export default function Footer2() {
                             <div className="content">
                                 <p>Location</p>
                                 <h3>
-                                    4517 Washington ave.
+                                    Darwin, Northern Territory, Australia
                                 </h3>
                             </div>
                         </div>
@@ -67,9 +67,8 @@ export default function Footer2() {
                                     </div>
                                     <div className="footer-content">
                                         <p>
-                                            Phasellus ultricies aliquam volutpat
-                                            ullamcorper laoreet neque, a lacinia
-                                            curabitur lacinia mollis
+                                            Native IT is a leading technology service provider dedicated to delivering innovative IT solutions. 
+                                            Our expert team ensures reliable support and cutting-edge services for your business needs.
                                         </p>
                                         <div className="social-icon d-flex align-items-center">
                                             <Link href="#"><i className="fab fa-facebook-f" /></Link>
@@ -212,7 +211,7 @@ export default function Footer2() {
                     <div className="container">
                         <div className="footer-wrapper d-flex align-items-center justify-content-between">
                             <p className="wow fadeInLeft color-2" data-wow-delay=".3s">
-                                © All Copyright {new Date().getFullYear()} by <Link href="/">Infotech</Link>
+                                © All Copyright {new Date().getFullYear()} by <Link href="/">Native</Link>
                             </p>
                             <ul className="footer-menu wow fadeInRight" data-wow-delay=".5s">
                                 <li>

@@ -117,7 +117,7 @@ export default function Contact() {
                                                     <div className="content">
                                                         <p>Location</p>
                                                         <h3>
-                                                            4517 Washington ave.
+                                                            Darwin, Northern Territory, Australia
                                                         </h3>
                                                     </div>
                                                 </div>

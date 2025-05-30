@@ -21,9 +21,8 @@ export default function Footer3() {
                                     </div>
                                     <div className="footer-content">
                                         <p>
-                                            Phasellus ultricies aliquam volutpat
-                                            ullamcorper laoreet neque, a lacinia
-                                            curabitur lacinia mollis
+                                            We are a leading IT service provider dedicated to delivering innovative technology solutions. 
+                                            Our expert team ensures reliable support and cutting-edge services for your business needs.
                                         </p>
                                         <div className="social-icon d-flex align-items-center">
                                             <Link href="#"><i className="fab fa-facebook-f" /></Link>
@@ -61,7 +60,7 @@ export default function Footer3() {
                                         <li>
                                             <Link href="/faq">
                                                 <i className="fa-solid fa-chevron-right" />
-                                                FAQ’S
+                                                FAQ'S
                                             </Link>
                                         </li>
                                         <li>
@@ -142,7 +141,7 @@ export default function Footer3() {
                                 </Link>
                             </div>
                             <p className="wow fadeInRight color-2" data-wow-delay=".5s">
-                                © All Copyright {new Date().getFullYear()} by <Link href="/">Infotech</Link>
+                                © All Copyright {new Date().getFullYear()} by <Link href="/">Native IT</Link>
                             </p>
                         </div>
                     </div>

@@ -38,13 +38,14 @@ export default function About() {
                                     <div className="col-lg-6 mt-4 mt-lg-0">
                                         <div className="about-content">
                                             <div className="section-title">
-                                                <span className="wow fadeInUp">ABOUT NATIVE</span>
+                                                <span className="wow fadeInUp">ABOUT NATIVE IT</span>
                                                 <h2 className="wow fadeInUp" data-wow-delay=".3s">
-                                                    We Are Increasing Business Success With <span>Technology</span>
+                                                    Empowering Businesses Through <span>Innovative Technology</span>
                                                 </h2>
                                             </div>
                                             <p className="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".5s">
-                                                It is a long established fact that a reader will be distracted the readable <br /> content of a page when looking at layout the point.
+                                                Native IT is a leading technology service provider dedicated to delivering innovative IT solutions. 
+                                                Our expert team ensures reliable support and cutting-edge services for your business needs.
                                             </p>
                                             <div className="about-icon-items">
                                                 <div className="icon-items wow fadeInUp" data-wow-delay=".7s">
@@ -52,9 +53,9 @@ export default function About() {
                                                         <img src="/assets/img/about/icon-4.svg" alt="icon-img" />
                                                     </div>
                                                     <div className="content">
-                                                        <h4>Problem Solving</h4>
+                                                        <h4>Expert Solutions</h4>
                                                         <p>
-                                                            Aliquam erat volutpat Nullam imperdiet
+                                                            Customized IT solutions tailored to your business needs
                                                         </p>
                                                     </div>
                                                 </div>
@@ -63,9 +64,9 @@ export default function About() {
                                                         <img src="/assets/img/about/icon-5.svg" alt="icon-img" />
                                                     </div>
                                                     <div className="content">
-                                                        <h4>Mission &amp; Vision</h4>
+                                                        <h4>Our Mission</h4>
                                                         <p>
-                                                            Ut vehiculadictumst. Maecenas ante.
+                                                            To provide innovative technology solutions that drive business growth
                                                         </p>
                                                     </div>
                                                 </div>
@@ -101,9 +102,9 @@ export default function About() {
                         </div>
                         <div className="container">
                             <div className="section-title text-center">
-                                <span className="wow fadeInUp">Our offering</span>
+                                <span className="wow fadeInUp">Our Services</span>
                                 <h2 className="text-white wow fadeInUp" data-wow-delay=".3s">
-                                    Enhance and Pioneer Using <br /> Technology Trends
+                                    Comprehensive IT Solutions for <br /> Modern Businesses
                                 </h2>
                             </div>
                             <div className="row">
