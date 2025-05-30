@@ -190,8 +190,7 @@ export default function ServiceCarousel() {
                         </div>
                     </div>
                 </div>
-
-            </Layout>
+                  </Layout>
         </>
     )
 }

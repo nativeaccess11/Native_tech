@@ -25,14 +25,35 @@ export default function Service() {
                                             </div>
                                             <div className="content">
                                                 <h4>
-                                                    <Link href="/service-details">
-                                                        Database Security
+                                                    <Link href="/service-details?service=social-media-marketing">
+                                                        Social Media Marketing
                                                     </Link>
                                                 </h4>
                                                 <p>
-                                                    Mauris ultrices ligula eget volutpat aliquet nullam
+                                                    Build your online presence and engage with your target audience effectively
                                                 </p>
-                                                <Link href="/service-details" className="theme-btn-2 mt-3">
+                                                <Link href="/service-details?service=social-media-marketing" className="theme-btn-2 mt-3">
+                                                    read More
+                                                    <i className="fa-solid fa-arrow-right-long" />
+                                                </Link>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".4s">
+                                        <div className="service-box-items box-shadow">
+                                            <div className="icon">
+                                                <img src="/assets/img/service/icon/s-icon-2.svg" alt="icon-img" />
+                                            </div>
+                                            <div className="content">
+                                                <h4>
+                                                    <Link href="/service-details?service=app-development">
+                                                        App Development
+                                                    </Link>
+                                                </h4>
+                                                <p>
+                                                    Create innovative and user-friendly mobile applications for your business
+                                                </p>
+                                                <Link href="/service-details?service=app-development" className="theme-btn-2 mt-3">
                                                     read More
                                                     <i className="fa-solid fa-arrow-right-long" />
                                                 </Link>
@@ -40,20 +61,41 @@ export default function Service() {
                                         </div>
                                     </div>
                                     <div className="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".5s">
-                                        <div className="service-box-items box-shadow active">
+                                        <div className="service-box-items box-shadow">
                                             <div className="icon">
-                                                <img src="/assets/img/service/icon/s-icon-2.svg" alt="icon-img" />
+                                                <img src="/assets/img/service/icon/s-icon-3.svg" alt="icon-img" />
                                             </div>
                                             <div className="content">
                                                 <h4>
-                                                    <Link href="/service-details">
-                                                        IT Consultancy
+                                                    <Link href="/service-details?service=seo-services">
+                                                        SEO Services
                                                     </Link>
                                                 </h4>
                                                 <p>
-                                                    Mauris ultrices ligula eget volutpat aliquet nullam
+                                                    Improve your online visibility and drive organic traffic to your website
                                                 </p>
-                                                <Link href="/service-details" className="theme-btn-2 mt-3">
+                                                <Link href="/service-details?service=seo-services" className="theme-btn-2 mt-3">
+                                                    read More
+                                                    <i className="fa-solid fa-arrow-right-long" />
+                                                </Link>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".6s">
+                                        <div className="service-box-items box-shadow">
+                                            <div className="icon">
+                                                <img src="/assets/img/service/icon/s-icon-4.svg" alt="icon-img" />
+                                            </div>
+                                            <div className="content">
+                                                <h4>
+                                                    <Link href="/service-details?service=cloud-services">
+                                                        Cloud Services
+                                                    </Link>
+                                                </h4>
+                                                <p>
+                                                    Optimize your IT infrastructure with scalable and flexible cloud solutions
+                                                </p>
+                                                <Link href="/service-details?service=cloud-services" className="theme-btn-2 mt-3">
                                                     read More
                                                     <i className="fa-solid fa-arrow-right-long" />
                                                 </Link>
@@ -63,39 +105,18 @@ export default function Service() {
                                     <div className="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".7s">
                                         <div className="service-box-items box-shadow">
                                             <div className="icon">
-                                                <img src="/assets/img/service/icon/s-icon-3.svg" alt="icon-img" />
+                                                <img src="/assets/img/service/icon/s-icon-5.svg" alt="icon-img" />
                                             </div>
                                             <div className="content">
                                                 <h4>
-                                                    <Link href="/service-details">
-                                                        Cyber Security
+                                                    <Link href="/service-details?service=database-security">
+                                                        Database Security
                                                     </Link>
                                                 </h4>
                                                 <p>
-                                                    Mauris ultrices ligula eget volutpat aliquet nullam
+                                                    Protect your critical business data with robust security measures
                                                 </p>
-                                                <Link href="/service-details" className="theme-btn-2 mt-3">
-                                                    read More
-                                                    <i className="fa-solid fa-arrow-right-long" />
-                                                </Link>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".9s">
-                                        <div className="service-box-items box-shadow">
-                                            <div className="icon">
-                                                <img src="/assets/img/service/icon/s-icon-4.svg" alt="icon-img" />
-                                            </div>
-                                            <div className="content">
-                                                <h4>
-                                                    <Link href="/service-details">
-                                                        App Development
-                                                    </Link>
-                                                </h4>
-                                                <p>
-                                                    Mauris ultrices ligula eget volutpat aliquet nullam
-                                                </p>
-                                                <Link href="/service-details" className="theme-btn-2 mt-3">
+                                                <Link href="/service-details?service=database-security" className="theme-btn-2 mt-3">
                                                     read More
                                                     <i className="fa-solid fa-arrow-right-long" />
                                                 </Link>
@@ -190,6 +211,107 @@ export default function Service() {
                             </div>
                         </div>
                     </section>
+
+                    {/* Additional Services Section */}
+                    <section className="service-section fix section-padding bg-light">
+                        <div className="container">
+                            <div className="section-title text-center">
+                                <span className="wow fadeInUp">ADDITIONAL SERVICES</span>
+                                <h2 className="wow fadeInUp" data-wow-delay=".3s">
+                                    Comprehensive IT Solutions for Your Business
+                                </h2>
+                            </div>
+                            <div className="service-wrapper mb-0">
+                                <div className="row">
+                                    <div className="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".3s">
+                                        <div className="service-box-items box-shadow">
+                                            <div className="icon">
+                                                <img src="/assets/img/service/icon/s-icon-14.svg" alt="icon-img" />
+                                            </div>
+                                            <div className="content">
+                                                <h4>
+                                                    <Link href="/service-details?service=cloud-services">
+                                                        Cloud Services
+                                                    </Link>
+                                                </h4>
+                                                <p>
+                                                    Scalable cloud solutions for enhanced business agility and cost efficiency
+                                                </p>
+                                                <Link href="/service-details?service=cloud-services" className="theme-btn-2 mt-3">
+                                                    read More
+                                                    <i className="fa-solid fa-arrow-right-long" />
+                                                </Link>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".5s">
+                                        <div className="service-box-items box-shadow">
+                                            <div className="icon">
+                                                <img src="/assets/img/service/icon/s-icon-15.svg" alt="icon-img" />
+                                            </div>
+                                            <div className="content">
+                                                <h4>
+                                                    <Link href="/service-details?service=network-solutions">
+                                                        Network Solutions
+                                                    </Link>
+                                                </h4>
+                                                <p>
+                                                    Robust network infrastructure design and implementation for optimal performance
+                                                </p>
+                                                <Link href="/service-details?service=network-solutions" className="theme-btn-2 mt-3">
+                                                    read More
+                                                    <i className="fa-solid fa-arrow-right-long" />
+                                                </Link>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".7s">
+                                        <div className="service-box-items box-shadow">
+                                            <div className="icon">
+                                                <img src="/assets/img/service/icon/s-icon-16.svg" alt="icon-img" />
+                                            </div>
+                                            <div className="content">
+                                                <h4>
+                                                    <Link href="/service-details?service=it-support">
+                                                        IT Support & Maintenance
+                                                    </Link>
+                                                </h4>
+                                                <p>
+                                                    24/7 technical support and proactive maintenance to ensure system reliability
+                                                </p>
+                                                <Link href="/service-details?service=it-support" className="theme-btn-2 mt-3">
+                                                    read More
+                                                    <i className="fa-solid fa-arrow-right-long" />
+                                                </Link>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".9s">
+                                        <div className="service-box-items box-shadow">
+                                            <div className="icon">
+                                                <img src="/assets/img/service/icon/s-icon-17.svg" alt="icon-img" />
+                                            </div>
+                                            <div className="content">
+                                                <h4>
+                                                    <Link href="/service-details?service=software-development">
+                                                        Software Development
+                                                    </Link>
+                                                </h4>
+                                                <p>
+                                                    Custom software solutions tailored to your business needs and requirements
+                                                </p>
+                                                <Link href="/service-details?service=software-development" className="theme-btn-2 mt-3">
+                                                    read More
+                                                    <i className="fa-solid fa-arrow-right-long" />
+                                                </Link>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
                     {/*<< Faq Section Start >>*/}
                     <section className="faq-section style-2 fix section-padding">
                         <div className="right-shape">

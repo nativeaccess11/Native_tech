@@ -110,7 +110,7 @@ export default function Footer4() {
                                                     </div>
                                                     <div className="content">
                                                         <h6>Phone Call: </h6>
-                                                        <Link href="#">208-6666-0112, 308-5555-0113</Link>
+                                                        <Link href="/tel:+61466005757">+61466005757</Link>
                                                     </div>
                                                 </div>
                                             </div>

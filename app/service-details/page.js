@@ -2,17 +2,98 @@
 import VideoPopup from '@/components/elements/VideoPopup'
 import Layout from "@/components/layout/Layout"
 import Link from "next/link"
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
+import { useSearchParams } from 'next/navigation'
+
 export default function ServiceDetails() {
     const [activeItem, setActiveItem] = useState(1)
+    const searchParams = useSearchParams()
+    const [selectedService, setSelectedService] = useState('cloud-services')
+
+    useEffect(() => {
+        const service = searchParams.get('service')
+        if (service) {
+            setSelectedService(service)
+        }
+    }, [searchParams])
 
     const handleClick = (index) => {
         setActiveItem(index)
     }
+
+    const serviceDetails = {
+        'social-media-marketing': {
+            title: 'Social Media Marketing',
+            description: 'Our social media marketing services help businesses build their online presence and engage with their target audience effectively. We create and manage compelling social media campaigns that drive brand awareness and customer engagement.',
+            longDescription: 'We develop comprehensive social media strategies tailored to your business goals, including content creation, community management, paid advertising, and performance analytics. Our team ensures your brand maintains a strong and consistent presence across all major social platforms.',
+            benefits: [
+                'Strategic Social Media Planning',
+                'Content Creation & Management',
+                'Community Engagement',
+                'Performance Analytics & Reporting'
+            ],
+            image: '/assets/img/service/details-1.jpg',
+            videoImage: '/assets/img/service/details-video.jpg'
+        },
+        'app-development': {
+            title: 'App Development',
+            description: 'Our app development services deliver innovative and user-friendly mobile applications that help businesses connect with their customers and streamline operations. We create both iOS and Android applications using the latest technologies.',
+            longDescription: 'From concept to deployment, our development team ensures your app meets the highest standards of quality and performance. We focus on creating intuitive user experiences and robust functionality that aligns with your business objectives.',
+            benefits: [
+                'Native & Cross-Platform Development',
+                'UI/UX Design',
+                'Quality Assurance',
+                'App Store Optimization'
+            ],
+            image: '/assets/img/service/details-2.jpg',
+            videoImage: '/assets/img/service/details-video.jpg'
+        },
+        'seo-services': {
+            title: 'SEO Services',
+            description: 'Our SEO services help businesses improve their online visibility and drive organic traffic to their websites. We implement proven strategies to enhance search engine rankings and increase qualified leads.',
+            longDescription: 'We conduct comprehensive SEO audits, develop targeted keyword strategies, and optimize your website content to improve search engine rankings. Our data-driven approach ensures measurable results and sustainable growth.',
+            benefits: [
+                'Technical SEO Optimization',
+                'Content Strategy',
+                'Keyword Research',
+                'Performance Tracking'
+            ],
+            image: '/assets/img/service/details-3.jpg',
+            videoImage: '/assets/img/service/details-video.jpg'
+        },
+        'cloud-services': {
+            title: 'Cloud Services',
+            description: 'Our cloud services provide scalable and flexible solutions that enable businesses to optimize their IT infrastructure while reducing costs. We offer comprehensive cloud migration, management, and optimization services.',
+            longDescription: 'With our cloud solutions, you can enhance your business agility, improve collaboration, and ensure data security. Our team of experts helps you leverage the power of cloud computing to drive innovation and growth.',
+            benefits: [
+                'Cloud Migration',
+                'Infrastructure Management',
+                'Security & Compliance',
+                '24/7 Cloud Support'
+            ],
+            image: '/assets/img/service/details-1.jpg',
+            videoImage: '/assets/img/service/details-video.jpg'
+        },
+        'database-security': {
+            title: 'Database Security',
+            description: 'Our database security services protect your critical business data from unauthorized access and potential threats. We implement robust security measures to ensure your data remains safe and compliant with industry standards.',
+            longDescription: 'We provide comprehensive database security solutions including access control, encryption, monitoring, and backup strategies. Our team ensures your data is protected while maintaining optimal performance and accessibility.',
+            benefits: [
+                'Data Encryption',
+                'Access Control',
+                'Security Monitoring',
+                'Compliance Management'
+            ],
+            image: '/assets/img/service/details-2.jpg',
+            videoImage: '/assets/img/service/details-video.jpg'
+        }
+    }
+
+    const currentService = serviceDetails[selectedService] || serviceDetails['cloud-services']
+
     return (
         <>
-
-            <Layout headerStyle={1} footerStyle={2} breadcrumbTitle="Services Details">
+            <Layout headerStyle={1} footerStyle={2} breadcrumbTitle={`${currentService.title} Details`}>
                 <section className="service-details-section fix section-padding">
                     <div className="container">
                         <div className="service-details-wrapper">
@@ -25,11 +106,26 @@ export default function ServiceDetails() {
                                             </div>
                                             <div className="widget-categories">
                                                 <ul>
-                                                    <li><Link href="/service-details">Database Security</Link><i className="fa-solid fa-arrow-right-long" /></li>
-                                                    <li><Link href="/service-details">IT Consultancy</Link><i className="fa-solid fa-arrow-right-long" /></li>
-                                                    <li className="active"><Link href="/service-details">App Development</Link><i className="fa-solid fa-arrow-right-long" /></li>
-                                                    <li><Link href="/service-details">UI/UX Design</Link><i className="fa-solid fa-arrow-right-long" /></li>
-                                                    <li><Link href="/service-details">Cyber Security</Link><i className="fa-solid fa-arrow-right-long" /></li>
+                                                    <li className={selectedService === 'social-media-marketing' ? 'active' : ''}>
+                                                        <Link href="/service-details?service=social-media-marketing">Social Media Marketing</Link>
+                                                        <i className="fa-solid fa-arrow-right-long" />
+                                                    </li>
+                                                    <li className={selectedService === 'app-development' ? 'active' : ''}>
+                                                        <Link href="/service-details?service=app-development">App Development</Link>
+                                                        <i className="fa-solid fa-arrow-right-long" />
+                                                    </li>
+                                                    <li className={selectedService === 'seo-services' ? 'active' : ''}>
+                                                        <Link href="/service-details?service=seo-services">SEO Services</Link>
+                                                        <i className="fa-solid fa-arrow-right-long" />
+                                                    </li>
+                                                    <li className={selectedService === 'cloud-services' ? 'active' : ''}>
+                                                        <Link href="/service-details?service=cloud-services">Cloud Services</Link>
+                                                        <i className="fa-solid fa-arrow-right-long" />
+                                                    </li>
+                                                    <li className={selectedService === 'database-security' ? 'active' : ''}>
+                                                        <Link href="/service-details?service=database-security">Database Security</Link>
+                                                        <i className="fa-solid fa-arrow-right-long" />
+                                                    </li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -62,60 +158,37 @@ export default function ServiceDetails() {
                                 <div className="col-12 col-lg-8 order-1 order-md-2">
                                     <div className="service-details-items">
                                         <div className="details-image">
-                                            <img src="/assets/img/service/details-1.jpg" alt="img" />
+                                            <img src={currentService.image} alt={currentService.title} />
                                         </div>
                                         <div className="details-content">
-                                            <h3>IT Consultancy</h3>
+                                            <h3>{currentService.title}</h3>
                                             <p className="mt-3">
-                                                The is ipsum dolor sit amet consectetur adipiscing elit. Fusce is eleifend porta arcu In hac habitasse the platea thereal turpoi dictumst. In lacus libero faucibus malesuada sagittis placerat eros sed istincidunt augue ac ante rutrum sed the is sodales augue consequat.
+                                                {currentService.description}
                                             </p>
                                             <p className="mt-3">
-                                                lacus sed pretium pretium justo. Integer is vitae venenatis real. Maecenas lacinia turpis the in nunc quam hendrerit scelerisque at finibus enim sagittis. Aliquam erat is volutpat nam nec purus at is orci volutpat semper vel id turpis In a malesuada arcu ac hendrerit.
+                                                {currentService.longDescription}
                                             </p>
                                             <div className="details-video-items">
                                                 <div className="video-thumb">
-                                                    <img src="/assets/img/service/details-video.jpg" alt="img" />
+                                                    <img src={currentService.videoImage} alt="video thumbnail" />
                                                     <VideoPopup style={1} />
                                                 </div>
                                                 <div className="content">
-                                                    <h4>Benefits With Our Service</h4>
-                                                    <p> Fusce is eleifend porta arcu In hac <br /> habitasse the platea thereal</p>
+                                                    <h4>Benefits With Our {currentService.title}</h4>
+                                                    <p>Transform your business with our comprehensive solutions</p>
                                                     <ul className="list">
-                                                        <li>
-                                                            <i className="fa-regular fa-circle-check" />
-                                                            Branding and design Identity
-                                                        </li>
-                                                        <li>
-                                                            <i className="fa-regular fa-circle-check" />
-                                                            Web site Marketing Solutions
-                                                        </li>
-                                                        <li>
-                                                            <i className="fa-regular fa-circle-check" />
-                                                            unlimited Download Data
-                                                        </li>
+                                                        {currentService.benefits.map((benefit, index) => (
+                                                            <li key={index}>
+                                                                <i className="fa-regular fa-circle-check" />
+                                                                {benefit}
+                                                            </li>
+                                                        ))}
                                                     </ul>
                                                 </div>
                                             </div>
-                                            <p>
-                                                Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore of magna aliqua. Ut enim ad minim veniam, made of owl the quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea dolor commodo consequat. Duis aute irure and dolor in reprehenderit.
-                                            </p>
-                                            <div className="image-area">
-                                                <div className="row g-4">
-                                                    <div className="col-lg-6 col-md-6">
-                                                        <div className="thumb">
-                                                            <img src="/assets/img/service/details-2.jpg" alt="img" />
-                                                        </div>
-                                                    </div>
-                                                    <div className="col-lg-6 col-md-6">
-                                                        <div className="thumb">
-                                                            <img src="/assets/img/service/details-3.jpg" alt="img" />
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <h3>Most Comment Question?</h3>
+                                            <h3>Most Common Questions</h3>
                                             <p className="mt-3">
-                                                The is ipsum dolor sit amet consectetur adipiscing elit. Fusce is eleifend porta arcu In hac habitasse the platea thereal turpoi dictumst. In lacus libero faucibus malesuada.
+                                                Get answers to frequently asked questions about our {currentService.title.toLowerCase()} and how we can help your business grow.
                                             </p>
                                         </div>
                                         <div className="faq-content style-3">
@@ -124,48 +197,36 @@ export default function ServiceDetails() {
                                                     <div className="accordion-item mb-3 wow fadeInUp" data-wow-delay=".3s">
                                                         <h5 className="accordion-header" onClick={() => handleClick(1)}>
                                                             <button className={activeItem == 1 ? "accordion-button" : "accordion-button collapsed"}>
-                                                                Where should I incorporate my business?
+                                                                What are the key features of your {currentService.title.toLowerCase()}?
                                                             </button>
                                                         </h5>
                                                         <div id="faq1" className={activeItem == 1 ? "accordion-collapse collapse show" : "accordion-collapse collapse"} data-bs-parent="#accordion">
                                                             <div className="accordion-body">
-                                                                There are many variations of passages of Real Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't.
+                                                                Our {currentService.title.toLowerCase()} include {currentService.benefits.join(', ')}. We provide comprehensive solutions tailored to your specific business needs.
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div className="accordion-item mb-3 wow fadeInUp" data-wow-delay=".5s">
                                                         <h5 className="accordion-header" onClick={() => handleClick(2)}>
                                                             <button className={activeItem == 2 ? "accordion-button" : "accordion-button collapsed"}>
-                                                                How long should a business plan be?
+                                                                How can I get started with your {currentService.title.toLowerCase()}?
                                                             </button>
                                                         </h5>
                                                         <div id="faq2" className={activeItem == 2 ? "accordion-collapse collapse show" : "accordion-collapse collapse"}>
                                                             <div className="accordion-body">
-                                                                There are many variations of passages of Real Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't.
+                                                                Getting started is easy! Contact our team for a consultation, and we'll help you understand how our {currentService.title.toLowerCase()} can benefit your business.
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div className="accordion-item mb-3 wow fadeInUp" data-wow-delay=".7s">
                                                         <h5 className="accordion-header" onClick={() => handleClick(3)}>
                                                             <button className={activeItem == 3 ? "accordion-button" : "accordion-button collapsed"}>
-                                                                What is included in your services?
+                                                                What kind of support do you provide?
                                                             </button>
                                                         </h5>
                                                         <div id="faq3" className={activeItem == 3 ? "accordion-collapse collapse show" : "accordion-collapse collapse"}>
                                                             <div className="accordion-body">
-                                                                There are many variations of passages of Real Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't.
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div className="accordion-item wow fadeInUp" data-wow-delay=".7s">
-                                                        <h5 className="accordion-header" onClick={() => handleClick(4)}>
-                                                            <button className={activeItem == 4 ? "accordion-button" : "accordion-button collapsed"}>
-                                                                What type of company is measured?
-                                                            </button>
-                                                        </h5>
-                                                        <div id="faq4" className={activeItem == 4 ? "accordion-collapse collapse show" : "accordion-collapse collapse"}>
-                                                            <div className="accordion-body">
-                                                                There are many variations of passages of Real Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't.
+                                                                We provide 24/7 technical support, regular maintenance, and proactive monitoring to ensure your systems run smoothly and efficiently.
                                                             </div>
                                                         </div>
                                                     </div>
@@ -178,7 +239,6 @@ export default function ServiceDetails() {
                         </div>
                     </div>
                 </section>
-
             </Layout>
         </>
     )
